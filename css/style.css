@@ -69,9 +69,9 @@ img {
   padding-bottom: 10px;
 }
 
-img:hover {
+/* img:hover {
   opacity: 0.7;
-}
+} */
 
 #gallery {
   margin-top: 20px;
@@ -99,9 +99,57 @@ h2 {
   font-family: 'Patua One', cursive;
   background: #000;
   color: #fff;
-  height: 120px;
+  height: 200px;
   text-align: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+.fa-instagram {
+  font-size: 30px; 
+  margin: 10px;
+}
+
+.fa-instagram:hover {
+  color: brown;
+  font-size: 30px; 
+  margin: 10px;
+}
+
+.fa-facebook-f {
+  font-size: 30px; 
+  margin: 10px;
+} 
+
+.fa-facebook-f:hover {
+  color: blue;
+  font-size: 30px; 
+  margin: 10px;
+}
+
+.fa-twitter {
+  font-size: 30px; 
+  margin: 10px;
+}
+
+.fa-twitter:hover {
+  color: #5d85d5;
+  font-size: 30px; 
+  margin: 10px;
+}
+
+.fa-youtube {
+  font-size: 30px; 
+  margin: 10px;
+}
+
+.fa-youtube:hover {
+  color: red;
+  font-size: 30px; 
+  margin: 10px;
+}
+
+h5 {
+  margin-top: 20px;
 }
